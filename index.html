@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/landing.css"> -->
+    <!-- <link rel="stylesheet" href="./css/global.css"> -->
+
+    <link rel="stylesheet" href="/css/landing.css">
+    <link rel="stylesheet" href="/css/nav-bar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/global.css">
+
+    <script src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/lazy.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+</head>
+
+<body>
+    <!-- nav -->
+    <div id="nav-placeholder"></div>
+    <!-- hero -->
+    <section class="Hero-section">
+        <div class="header_hero">
+            <h1 class="heading_text">
+                <span class="spectrum">Spectrum</span>
+                <span class="of_Diverse">of Diverse</span>
+                <span class="Perspectives">Perspectives</span>
+            </h1>
+            <div class="spectrum3delement">
+                <canvas id="image" width="500" height="500" class="desktop-canvas"> </canvas>
+                <img data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/integra-magna-landing-sequence/001.webp"
+                    alt="" srcset="" class="mobile-hero-iamge lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Autoplay video -->
+    <section class="site-container-padding">
+        <div class="video_container_Autoplay">
+            <a href="https://youtu.be/gjkVNzM5wYw" target="_blank" class="video_container video-section">
+                <video autoplay muted loop class="lazy">
+                    <source
+                        src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Integra-Magna-Landing-Showreel.mp4"
+                        type="video/mp4">
+                </video>
+            </a>
+        </div>
+
+        <!-- cursor -->
+        <div class="custom-cursor">
+            <div class="customer-cursor-container">
+                <div class="text-wheel-cursor"></div>
+                <div class="playbutton-cursor"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- text typing -->
+    <section class="site-container-padding top-bottom-spacing left-align">
+        <h1 class="typwrite-text">
+            <span>We are a cadre of professional </span> <br />
+            <span class="typewrite" data-period="2000" data-type='[ "designers", "engineers", "artists"]'
+                data-color='["#FA7598", "#007934","#FFA600"]'>
+                <span class="wrap"></span>
+            </span>
+            <span>and cats <br class="phone-breaker" />in disguise.</span>
+        </h1>
+        <!-- <div class="typwrite-text-container">
+
+        </div> -->
+    </section>
+
+    <!-- Work grid desktop -->
+    <section class="work-s">
+        <div class="work-headings-container site-container-padding">
+            <h3 class="w-o-r-w">
+                Our Recent Work
+            </h3>
+            <a class="w-s-o-m-w-desktop" href="/Work.html">
+                See More Of Our Work →
+            </a>
+        </div>
+
+        <div class="work-grid-container-desktop">
+            <div class="w-g-t-container">
+                <h3 class="w-g-t-caption">
+                    We Work Closely With Our Clients To Create Outstanding Experiences For Their Customers.
+                </h3>
+            </div>
+
+            <div class="w-g-one-container thumbnail-holder">
+                <a href="/Case Study/Neelam Foresteria.html" class="w-g-t-link">
+                    <figure>
+                        <video autoplay="" muted="" loop="" playsinline="" class="thumbnail-image" alt="t-shirt">
+                            <source
+                                src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Work-Thumbnails/Neelam-landing-work-thumbnail.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </figure>
+                </a>
+                <div class="w-g-c-container">
+                    <h4 class="w-g-c-heading">
+                        Neelam Foresteria
+                    </h4>
+                    <p class="w-g-c-vertical">
+                        Branding | Hospitality
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-g-two-container thumbnail-holder">
+                <a href="/Case Study/boAt.html" class="w-g-t-link">
+                    <figure>
+                        <video autoplay="" muted="" loop="" playsinline="" class="thumbnail-image" alt="t-shirt">
+                            <source
+                                src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Work-Thumbnails/boAt-landing-work-thumbnail.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </figure>
+                </a>
+                <div class="w-g-c-container">
+                    <h4 class="w-g-c-heading">
+                        Boat
+                    </h4>
+                    <p class="w-g-c-vertical">
+                        Marketing Campagin | Tech
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-g-three-container thumbnail-holder">
+                <a href="/Case Study/Decathlon.html" class="w-g-t-link">
+                    <figure>
+                        <video autoplay="" muted="" loop="" playsinline="" class="thumbnail-image square-ratio"
+                            alt="t-shirt">
+                            <source
+                                src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Work-Thumbnails/Decathlon-landing-work-thumbnail.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </figure>
+                </a>
+                <div class="w-g-c-container">
+                    <h4 class="w-g-c-heading">
+                        Decathlon
+                    </h4>
+                    <p class="w-g-c-vertical">
+                        Marketing Campagin | Sports
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-g-four-container thumbnail-holder">
+                <a href="/Case Study/ADND.html" class="w-g-t-link">
+                    <figure>
+                        <video autoplay="" muted="" loop="" playsinline="" class="thumbnail-image square-ratio"
+                            alt="t-shirt">
+                            <source
+                                src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Work-Thumbnails/ADND-landing-work-thumbnail.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </figure>
+                </a>
+                <div class="w-g-c-container">
+                    <h4 class="w-g-c-heading">
+                        ADND
+                    </h4>
+                    <p class="w-g-c-vertical">
+                        Website | Architecture
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a class="w-s-o-m-w-mobile site-container-padding" href="/Work.html">
+            See More Of Our Work →
+        </a>
+    </section>
+
+    <!-- Clientele logo -->
+    <section class="site-container-padding clientele-c top-bottom-spacing">
+
+        <div class="clientele_heading_container">
+            <h2 class="clientele_heading">Clientele</h2>
+        </div>
+
+        <div class="clientele_logo-container">
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/ADND.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/ADND.png" />
+            </div>
+
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/BoAt.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/BoAt.png" />
+            </div>
+
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Decathlon.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Decathlon.png" />
+            </div>
+
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/FareShare.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/FareShare.png" />
+            </div>
+
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Godrej.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Godrej.png" />
+            </div>
+
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Marriott.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Marriott.png" />
+            </div>
+
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Prestige.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Prestige.png" />
+            </div>
+
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Tata.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Tata.png" />
+            </div>
+
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/TILX.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/TILX.png" />
+            </div>
+
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Titan.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Titan.png" />
+            </div>
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Tranzact.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Tranzact.png" />
+            </div>
+            <div class="client_logo">
+                <img class="lazy"
+                    data-src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Yashraj.png"
+                    alt=""
+                    src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Clients/Yashraj.png" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Change on scroll section -->
+    <div class="canvas-container">
+        <canvas id="team-image-changing"></canvas>
+    </div>
+    <div class="team_scroll_image_div">
+        <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Landing-Page/Scrolling-team-working/01.webp"
+            alt="" srcset="" class="team_scroll_image">
+    </div>
+    <!-- partial -->
+
+
+    <!-- Text Area with Background image blur -->
+    <section class="site-container-padding top-bottom-spacing l-a-t">
+        <h4 class="l-a-t-h">
+            We're a global powerhouse of creativity and innovation. We work with the best brands in the biz, and we're
+            not afraid to shake things up with our daring and unconventional designs.
+        </h4>
+    </section>
+
+    <!-- tesimonial -->
+
+
+
+
+    <!-- Service Section -->
+    <section class="s-holder">
+
+        <div class="s-titles">
+            <div class="s-title-c-image">
+                <div class="t-overflow-holder">
+                    <h3 class="s-t-heading">
+                        Services
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="s-desc-container">
+            <div class="s-desc">
+                <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Service/Branding-Icon.svg"
+                    alt="" srcset="" class="s-icon">
+                <div class="h-list-container">
+                    <h3 class="t-heading">Branding</h3>
+                    <ul class="s-sec-list">
+                        <li>Visual Identity</li>
+                        <li>Verbal Identity</li>
+                        <li>Typography</li>
+                        <li>Motion Identity</li>
+                        <li>Brand Guidelines</li>
+                        <li>Packaging Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="s-desc">
+                <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Service/Strategy-Icon.svg"
+                    alt="" srcset="" class="s-icon">
+                <div class="h-list-container">
+                    <h3 class="t-heading">Strategy</h3>
+                    <ul class="s-sec-list">
+                        <li>Brand Positioning</li>
+                        <li>Brand Architecture</li>
+                        <li>Creative Campaigns</li>
+                        <li>GTM Plans</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="s-desc">
+                <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Service/UX-Icon.svg" alt=""
+                    srcset="" class="s-icon">
+                <div class="h-list-container">
+                    <h3 class="t-heading">UX/UI Design</h3>
+                    <ul class="s-sec-list">
+                        <li>UX Research/ Analysis</li>
+                        <li>UX Design</li>
+                        <li>Webflow Development</li>
+                        <li>Website Design/ Development</li>
+                        <li>App Design/ Development</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="s-desc">
+                <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Service/Graphic-design+icon.svg"
+                    alt="" srcset="" class="s-icon">
+                <div class="h-list-container">
+                    <h3 class="t-heading">Graphic Design</h3>
+                    <ul class="s-sec-list">
+                        <li>Visual Identity</li>
+                        <li>Verbal Identity</li>
+                        <li>Typography</li>
+                        <li>Motion Identity</li>
+                        <li>Brand Guidelines</li>
+                        <li>Packaging Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="s-desc">
+                <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Service/Motion-design+Icon.svg"
+                    alt="" srcset="" class="s-icon">
+                <div class="h-list-container">
+                    <h3 class="t-heading">Motion Design</h3>
+                    <ul class="s-sec-list">
+                        <li>Promo Videos</li>
+                        <li>Motion Graphic</li>
+                        <li>Character Animation</li>
+                        <li>Website Animations</li>
+                        <li>Logo Animation</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Service Phone  -->
+    <section class="s-holder-small-display site-container-padding">
+
+        <div class="s-desc-container">
+            <h3 class="s-t-heading">
+                Services
+            </h3>
+
+            <div class="s-desc">
+                <div class="s-title-c-image">
+                    <div class="t-overflow-holder">
+                        <h3 class="t-heading">
+                            Branding
+                        </h3>
+                    </div>
+                    <div class="i-overflow-holder">
+
+                        <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Service/Branding-Icon.svg"
+                            alt="" srcset="" class="i-image">
+                    </div>
+                </div>
+
+                <ul class="s-sec-list">
+                    <li>Visual Identity</li>
+                    <li>Verbal Identity</li>
+                    <li>Typography</li>
+                    <li>Motion Identity</li>
+                    <li>Brand Guidelines</li>
+                    <li>Packaging Design</li>
+                </ul>
+            </div>
+
+            <div class="s-desc">
+                <div class="s-title-c-image">
+                    <div class="t-overflow-holder">
+                        <h3 class="t-heading">
+                            Strategy
+                        </h3>
+                    </div>
+                    <div class="i-overflow-holder">
+                        <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Service/Strategy-Icon.svg"
+                            alt="" srcset="" class="i-image">
+                    </div>
+                </div>
+                <ul class="s-sec-list">
+                    <li>Brand Positioning</li>
+                    <li>Brand Architecture</li>
+                    <li>Creative Campaigns</li>
+                    <li>GTM Plans</li>
+                    <!-- <li>Brand Guidelines</li> -->
+                    <!-- <li>Packaging Design</li> -->
+                </ul>
+            </div>
+
+            <div class="s-desc">
+                <div class="s-title-c-image">
+                    <div class="t-overflow-holder">
+                        <h3 class="t-heading">
+                            UX/UI Design
+                        </h3>
+                    </div>
+                    <div class="i-overflow-holder">
+                        <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Service/UX-Icon.svg"
+                            alt="" srcset="" class="i-image">
+                    </div>
+                </div>
+
+                <ul class="s-sec-list">
+                    <li>UX Research/ Analysis</li>
+                    <li>UX Design</li>
+                    <li>Webflow Development</li>
+                    <li>Website Design/ Development</li>
+                    <li>App Design/ Development</li>
+                    <!-- <li>Packaging Design</li> -->
+                </ul>
+            </div>
+
+            <div class="s-desc">
+                <div class="s-title-c-image">
+                    <div class="t-overflow-holder">
+                        <h3 class="t-heading">
+                            Graphic Design
+                        </h3>
+                    </div>
+                    <div class="i-overflow-holder">
+                        <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Service/Graphic-design+icon.svg"
+                            alt="" srcset="" class="i-image">
+                    </div>
+                </div>
+
+                <ul class="s-sec-list">
+                    <li>Visual Identity</li>
+                    <li>Verbal Identity</li>
+                    <li>Typography</li>
+                    <li>Motion Identity</li>
+                    <li>Brand Guidelines</li>
+                    <li>Packaging Design</li>
+                </ul>
+            </div>
+
+            <div class="s-desc">
+                <div class="s-title-c-image">
+                    <div class="t-overflow-holder">
+                        <h3 class="t-heading">
+                            Motion Design
+                        </h3>
+                    </div>
+                    <div class="i-overflow-holder">
+                        <img src="https://integramagna.s3.ap-south-1.amazonaws.com/Integra_Magna/Service/Motion-design+Icon.svg"
+                            alt="" srcset="" class="i-image">
+                    </div>
+                </div>
+                <ul class="s-sec-list">
+                    <li>Promo Videos</li>
+                    <li>Motion Graphic</li>
+                    <li>Character Animation</li>
+                    <li>Website Animations</li>
+                    <li>Logo Animation</li>
+                    <!-- <li>Brand Guidelines</li> -->
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <div id="Footer_placeholder"></div>
+
+
+    <script src="/js/landing.js"></script>
+    <script src="/js/global.js"></script>
+    <!-- <script src="/js/nav-bar.js"></script>
+    <script src="/js/footer.js"></script> -->
+
+    <!-- <script src="./js/landing.js"></script> -->
+</body>
+
+</html>
